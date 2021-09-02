@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseSimpleLink", "UseSimpleLink.csproj", "{D2572389-9AEE-4E1D-8B32-316111F98D45}"
 EndProject
 Global
