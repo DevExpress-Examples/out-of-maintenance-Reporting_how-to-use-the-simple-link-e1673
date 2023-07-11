@@ -1,10 +1,8 @@
-﻿#region #Reference
 using System;
 using System.Globalization;
 using System.Windows;
 using DevExpress.Xpf.Printing;
 // ...
-#endregion #Reference
 
 namespace UseCollectionViewLink {
 
@@ -13,7 +11,6 @@ namespace UseCollectionViewLink {
             InitializeComponent();
         }
 
-#region #SimpleLink
 string[] data;
 
 private void button1_Click(object sender, RoutedEventArgs e) {
@@ -35,7 +32,6 @@ private void button1_Click(object sender, RoutedEventArgs e) {
 void link_CreateDetail(object sender, CreateAreaEventArgs e) {
     e.Data = data[e.DetailIndex];
 }
-#endregion #SimpleLink
     }
 
 }
